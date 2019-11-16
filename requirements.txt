@@ -1,0 +1,13 @@
+Author: Vijay GH
+Created:2019/NOV
+-----------------------------------------------------------
+sudo pip3 install spidev
+sudo pip3 install mfrc522
+mkdir ~/pi-rfid
+-----------------------------------------------------------------------------
+sudo apt-get install mysql-server -y
+sudo mysql_secure_installation
+GRANT ALL PRIVILEGES ON attendancesystem.* TO 'attendanceadmin'@'localhost';
+-----------------------------------------------------------------------------
+sudo pip3 install mysql-connector-python
+
